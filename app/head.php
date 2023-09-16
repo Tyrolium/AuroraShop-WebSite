@@ -1,15 +1,9 @@
 <?php
 
-function head($page)
+function head()
 {
 
-    //Page
-    if ($page == 1) {
-        $title = "Exemple";
-    } else {
-        $title = "404 | Exemple";
-    }
-
+    $title = "Exemple";
 
     include "env.php";
 

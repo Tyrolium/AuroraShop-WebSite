@@ -1,3 +1,3 @@
-# MySiteTemplate
+# Site Web du Shop de l'Aurora
 
-Mon template de site web
+Site Web du Shop de l'Aurora
