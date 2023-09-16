@@ -1,0 +1,63 @@
+
+/*************************
+        FOOTER
+ *************************/
+
+body{
+    margin:0;
+    overflow-x:hidden;
+}
+
+.footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+}
+
+.footer .rowFoot{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:var(--colorall-white-purple);
+    font-size:0.8em;
+}
+
+.footer .rowFoot a{
+    text-decoration:none;
+    color:var(--colorall-white-purple);
+    transition:0.5s;
+}
+
+.footer .rowFoot a:hover{
+    color:#fff;
+}
+
+.footer .rowFoot ul{
+    width:100%;
+}
+
+.footer .rowFoot ul li{
+    display:inline-block;
+    margin:0px 30px;
+}
+
+.footer .rowFoot a i{
+    font-size:2em;
+    margin:0% 1%;
+}
+
+@media (max-width:720px){
+    .footer{
+        text-align:left;
+        padding:5%;
+    }
+    .footer .rowFoot ul li{
+        display:block;
+        margin:10px 0px;
+        text-align:left;
+    }
+    .footer .rowFoot a i{
+        margin:0% 3%;
+    }
+}

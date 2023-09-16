@@ -3,7 +3,7 @@
 function head()
 {
 
-    $title = "Exemple";
+    $title = "Aurora Store";
 
     include "env.php";
 
