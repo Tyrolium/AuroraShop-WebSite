@@ -1,9 +1,9 @@
 <?php include "app/app.php"; head(); ?>
-<body>
+<body >
 
 <?php headerComposant(); ?>
 
-<main>
+<main data-bs-spy="scroll" data-bs-target="#navbar-scroll">
 
     <div class="container">
 

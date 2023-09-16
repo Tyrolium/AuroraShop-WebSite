@@ -109,5 +109,17 @@
     transform: translate3d(0%, -19%, 100px);
 }
 
+#galery .card{
+    transition: all .2s ease 0s;
+}
+
+#galery .card:hover {
+    -webkit-transform: scale(1.10);
+    -moz-transform: scale(1.10);
+    -ms-transform: scale(1.10);
+    -o-transform: scale(1.10);
+    transform: scale(1.10);
+}
+
 
 

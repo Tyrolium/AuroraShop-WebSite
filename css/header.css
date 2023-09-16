@@ -44,4 +44,26 @@ div#header div.col-6 h1{
     font-size: 42px;
 }
 
+div#header img{
+    transition: all .2s ease 0s;
+}
 
+div#header img:hover{
+    -webkit-transform: scale(1.10);
+    -moz-transform: scale(1.10);
+    -ms-transform: scale(1.10);
+    -o-transform: scale(1.10);
+    transform: scale(1.10);
+}
+
+div#header .col-6:first-child{
+    transition: all .2s ease 0s;
+}
+
+div#header .col-6:first-child:hover {
+    -webkit-transform: scale(1.10);
+    -moz-transform: scale(1.10);
+    -ms-transform: scale(1.10);
+    -o-transform: scale(1.10);
+    transform: scale(1.10);
+}

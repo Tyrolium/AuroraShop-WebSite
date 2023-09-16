@@ -116,10 +116,10 @@ header#nav-desktop nav ul li {
     margin-left: 20px;
     padding-top: 20px;
 }
-header#nav-desktop nav ul li:hover {
+header#nav-desktop nav ul li a:hover {
     border-bottom: solid #575757;
 }
-header#nav-desktop nav ul li.nav-active {
+header#nav-desktop nav ul li a.active {
     border-bottom: solid var(--colorall-blue);
 }
 
