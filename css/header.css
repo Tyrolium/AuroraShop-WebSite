@@ -67,3 +67,67 @@ div#header .col-6:first-child:hover {
     -o-transform: scale(1.10);
     transform: scale(1.10);
 }
+
+@media (max-width: 1301px) {
+    div#header div.col-6:first-child{
+        padding-top: 13%;
+        padding-left: 13%;
+    }
+}
+
+@media (max-width: 991px) {
+    header {
+        height: unset;
+    }
+
+    div#header {
+        height: 672px;
+        margin-top: 75px;
+        margin-bottom: 56px;
+    }
+
+    div#header .row {
+        margin-top: 65px;
+    }
+}
+
+@media (max-width: 770px) {
+
+    div#header .col-6:last-child{
+        display: none;
+    }
+
+    div#header div.col-6:first-child{
+        flex-shrink: unset;
+        flex: unset;
+        width: unset;
+        max-width: unset;
+        padding-right: unset;
+        padding-left: unset;
+        margin-top: unset;
+    }
+
+    div#header {
+        height: 472px;
+    }
+
+    div#header .row {
+        margin-top: 65px;
+        width: 90%;
+        max-width: 1060px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+
+    div#header div.col-6:first-child div{
+        text-align: center;
+    }
+}
+
+@media (max-width: 406px) {
+    div#header div.col-6:first-child{
+        padding-top: 4%;
+    }
+}
